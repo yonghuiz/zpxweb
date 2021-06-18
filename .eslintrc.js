@@ -25,6 +25,8 @@ const eslintrc = {
     'arrow-body-style': 0,
     'react/sort-comp': 0,
     'react/prop-types': 0,
+	'implicit-arrow-linebreak':0,
+	'operator-linebreak':0,
     'react/jsx-first-prop-new-line': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.md'] }],
     'import/extensions': 0,
@@ -61,8 +63,11 @@ const eslintrc = {
     'react/jsx-props-no-spreading': 0,
     'react/state-in-constructor': 0,
     'react/static-property-placement': 0,
+	'react/jsx-indent':0,
+	'react/jsx-indent-props':0,
+	'no-missing-end-of-source-newline':0,
 	'indent': 0,
-	'no tabs': 0
+	'no-tabs': 0
   },
 };
 
@@ -74,7 +79,8 @@ if (process.env.RUN_ENV === 'DEMO') {
   };
 
   Object.assign(eslintrc.rules, {
-    indent: 0,
+    'indent': 0,
+	'no-tabs': 0,
     'no-console': 0,
     'no-plusplus': 0,
     'eol-last': 0,

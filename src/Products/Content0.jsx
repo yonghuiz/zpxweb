@@ -34,6 +34,7 @@ class Content extends React.PureComponent {
                   <Col key={i.toString()} {...blockProps}>
                     <div {...item}>
                       {item.children.map(getChildrenToRender)}
+                      TEST
                     </div>
                   </Col>
                 );

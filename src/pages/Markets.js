@@ -1,8 +1,8 @@
   
-import Page2 from '../Page2';
+import Markets from '../Markets';
 
 export default function () {
   return (
-    <Page2 />
+    <Markets />
   );
 }

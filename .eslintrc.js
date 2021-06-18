@@ -67,6 +67,8 @@ const eslintrc = {
 	'react/jsx-indent-props':0,
 	'no-missing-end-of-source-newline':0,
 	'indent': 0,
+	'no-trailing-spaces':0,
+	'react/self-closing-comp':0,
 	'no-tabs': 0
   },
 };

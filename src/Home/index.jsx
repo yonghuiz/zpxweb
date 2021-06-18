@@ -93,12 +93,18 @@ export default class Home extends React.Component {
         dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner3
-        id="Banner3_0"
-        key="Banner3_0"
-        dataSource={Banner30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+    //   <Banner3
+    //     id="Banner3_0"
+    //     key="Banner3_0"
+    //     dataSource={Banner30DataSource}
+    //     isMobile={this.state.isMobile}
+    //   />,
+	<Content3
+	id="Content3_0"
+	key="Content3_0"
+	dataSource={Content30DataSource}
+	isMobile={this.state.isMobile}
+  />,
       <Content0
         id="Content0_0"
         key="Content0_0"
@@ -111,12 +117,7 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+     
       <Feature1
         id="Feature1_0"
         key="Feature1_0"

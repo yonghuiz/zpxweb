@@ -28,7 +28,7 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: '/Markets',
+          // href: '/Markets',
           children: [{ children: 'Markets', name: 'text' }],
         },
         subItem: [
@@ -44,7 +44,7 @@ export const Nav00DataSource = {
                   name: 'image0',
                   className: 'item-image',
                   children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+                    '',
                 },
                 {
                   name: 'title',
@@ -54,7 +54,7 @@ export const Nav00DataSource = {
                 {
                   name: 'content',
                   className: 'item-content',
-                  children: 'XXX',
+                  children: 'XXXX',
                 },
               ],
             },
@@ -120,7 +120,253 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-
+export const Nav30DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
+  page: { className: 'home-page' },
+  logo: {
+    className: 'header3-logo',
+    children:
+      'https://bucket.mlcdn.com/a/1736/1736632/images/743944cdb92b0fe315b67343a2c5900eab4834b5.jpeg',
+  },
+  Menu: {
+    className: 'header3-menu',
+    children: [
+      {
+        name: 'item0',
+        className: 'header3-item',
+        children: {
+          href: '/',
+          children: [{ children: 'Home', name: 'text' }],
+        },
+       
+      },
+      {
+        name: 'item1',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [{ children: 'Markets', name: 'text' }],
+        },
+        subItem: [
+          {
+            name: 'sub0',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+              
+                // {
+                //   name: 'image0',
+                //   className: 'item-image',
+                //   children:
+                //     '',
+                // },
+                {
+                  href: '/Apartment',
+                  name: 'title',
+                  className: 'item-title',
+                  children: 'Apartment',
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: 'XXX',
+                },
+              ],
+            },
+          },
+          {
+            name: 'sub1',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+                // {
+                //   name: 'image0',
+                //   className: 'item-image',
+                //   children:
+                //     'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+                // },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: 'School',
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: 'XXX',
+                },
+              ],
+            },
+          },
+        ],
+      },
+      {
+        name: 'item2',
+        className: 'header3-item',
+        
+        children: {
+          href: '/Products',
+          children: [{ children: 'Products', name: 'text' }],
+        },
+        subItem: [
+          {
+            name: 'sub0',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+              
+                // {
+                //   name: 'image0',
+                //   className: 'item-image',
+                //   children:
+                //     '',
+                // },
+                {
+                  href: '/Apartment',
+                  name: 'title',
+                  className: 'item-title',
+                  children: 'Apartment',
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: 'XXX',
+                },
+              ],
+            },
+          },
+          {
+            name: 'sub1',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+                // {
+                //   name: 'image0',
+                //   className: 'item-image',
+                //   children:
+                //     'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+                // },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: 'School',
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: 'XXX',
+                },
+              ],
+            },
+          },
+        ],
+      },
+      {
+        name: 'item3',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [{ children: 'Gallery', name: 'text' }],
+        },
+      },
+      {
+        name: 'item4',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [{ children: 'About Us', name: 'text' }],
+        },
+      },
+    ],
+  },
+  mobileMenu: { className: 'header3-mobile-menu' },
+};
+export const Footer10DataSource = {
+  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
+  OverPack: { className: 'footer1', playScale: 0.2 },
+  block: {
+    className: 'home-page',
+    gutter: 0,
+    children: [
+      {
+        name: 'block0',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          className: 'logo',
+          children:
+            'https://bucket.mlcdn.com/a/1736/1736632/images/9759a480b3e2b8f2e9878a921eb5c124dfc901ca.png',
+        },
+        childWrapper: {
+          className: 'slogan',
+          children: [
+            {
+              name: 'content0',
+              children: 'Animation specification and components of Ant Design.',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '产品' },
+        childWrapper: {
+          children: [
+            { name: 'link0', href: '#', children: '产品更新记录' },
+            { name: 'link1', href: '#', children: 'API文档' },
+            { name: 'link2', href: '#', children: '快速入门' },
+            { name: 'link3', href: '#', children: '参考指南' },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '关于' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'FAQ' },
+            { href: '#', name: 'link1', children: '联系我们' },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '资源' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'Ant Design' },
+            { href: '#', name: 'link1', children: 'Ant Motion' },
+          ],
+        },
+      },
+    ],
+  },
+  copyrightWrapper: { className: 'copyright-wrapper' },
+  copyrightPage: { className: 'home-page' },
+  copyright: {
+    className: 'copyright',
+    children: (
+      <span>
+        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
+        Reserved
+      </span>
+    ),
+  },
+};
 export const Footer00DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },

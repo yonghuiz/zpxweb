@@ -2,19 +2,26 @@
 /* eslint arrow-parens: 0 */
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
+
 import Banner0 from './Banner0';
-import Content0 from './Content0';
-import Content1 from './Content1';
-import Content3 from './Content3';
+import Banner2 from './Banner2';
+import Feature4 from './Feature4';
+import Feature5 from './Feature5';
+import Feature8 from './Feature8';
+import Content12 from './Content12';
+// import Footer1 from '../layouts/Footer1';
 // import Footer0 from './Footer0';
 
 import {
-  // Nav00DataSource,
   Banner00DataSource,
-  Content00DataSource,
-  Content10DataSource,
-  Content30DataSource,
-  // Footer01DataSource,
+  Banner20DataSource,
+  Feature40DataSource,
+  Feature50DataSource,
+  Banner21DataSource,
+  Feature80DataSource,
+  Content120DataSource,
+  // Footer10DataSource,
+  // Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -23,7 +30,7 @@ enquireScreen((b) => {
   isMobile = b;
 });
 
-const { location } = window;
+const { location = {} } = typeof window !== 'undefined' ? window : {};
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -54,35 +61,58 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <div>Products</div>,
       <Banner0
         id="Banner0_0"
         key="Banner0_0"
         dataSource={Banner00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content0
-        id="Content0_0"
-        key="Content0_0"
-        dataSource={Content00DataSource}
+      <Banner2
+        id="Banner2_0"
+        key="Banner2_0"
+        dataSource={Banner20DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content1
-        id="Content1_0"
-        key="Content1_0"
-        dataSource={Content10DataSource}
+      <Feature4
+        id="Feature4_0"
+        key="Feature4_0"
+        dataSource={Feature40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
+      <Feature5
+        id="Feature5_0"
+        key="Feature5_0"
+        dataSource={Feature50DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Banner2
+        id="Banner2_1"
+        key="Banner2_1"
+        dataSource={Banner21DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature8
+        id="Feature8_0"
+        key="Feature8_0"
+        dataSource={Feature80DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content12
+        id="Content12_0"
+        key="Content12_0"
+        dataSource={Content120DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      // <Footer1
+      //   id="Footer1_0"
+      //   key="Footer1_0"
+      //   dataSource={Footer10DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       // <Footer0
-      //   id="Footer0_1"
-      //   key="Footer0_1"
-      //   dataSource={Footer01DataSource}
+      //   id="Footer0_0"
+      //   key="Footer0_0"
+      //   dataSource={Footer00DataSource}
       //   isMobile={this.state.isMobile}
       // />,
     ];

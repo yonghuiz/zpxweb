@@ -40,7 +40,9 @@ function Content1(props) {
           }}
         >
           <span {...dataSource.img}>
+            <a href = {dataSource.img.href}>
             <img src={dataSource.img.children} width="100%" alt="img" />
+            </a>
           </span>
         </TweenOne>
         <QueueAnim

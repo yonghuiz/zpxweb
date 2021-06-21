@@ -1,155 +1,5 @@
 import React from 'react';
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper' },
-  page: { className: 'home-page' },
-  logo: {
-    className: 'header3-logo',
-    children:
-      'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
-  },
-  Menu: {
-    className: 'header3-menu',
-    children: [
-      {
-        name: 'item0',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: 'Home', name: 'text' }],
-        },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
-      },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: 'Market', name: 'text' }],
-        },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
-      },
-      {
-        name: 'item2',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: '导航三', name: 'text' }],
-        },
-      },
-      {
-        name: 'item3',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: '导航四', name: 'text' }],
-        },
-      },
-    ],
-  },
-  mobileMenu: { className: 'header3-mobile-menu' },
-};
+
 export const Banner01DataSource = {
   wrapper: { className: 'banner0' },
   textWrapper: { className: 'banner0-text-wrapper' },
@@ -163,125 +13,7 @@ export const Banner01DataSource = {
   },
   button: { className: 'banner0-button', children: 'Learn More' },
 };
-export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper kpzva25qxoh-editor_css' },
-  page: { className: 'home-page kpzv9njb0w-editor_css' },
-  logo: {
-    className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
-  },
-  Menu: {
-    className: 'header0-menu',
-    children: [
-      {
-        name: 'item0',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: 'Home',
-              name: 'text',
-              className: 'kpzvbuxjkhk-editor_css',
-            },
-          ],
-        },
-      
-      },
-      {
-        name: 'item1',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [{ children: 'Markets', name: 'text' }],
-        },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
-      },
-      {
-        name: 'item2',
-        className: 'header0-item kpzveelso3a-editor_css',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: 'Products',
-              name: 'text',
-              className: 'kpzvedzoii-editor_css',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item3',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [{ children: 'About us', name: 'text' }],
-        },
-      },
-      {
-        name: 'item4',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [{ children: 'Contact us', name: 'text' }],
-        },
-      },
-    ],
-  },
-  mobileMenu: { className: 'header0-mobile-menu' },
-};
+
 export const Banner10DataSource = {
   wrapper: { className: 'banner1' },
   BannerAnim: {
@@ -345,24 +77,24 @@ export const Banner30DataSource = {
       {
         name: 'nameEn',
         className: 'banner3-name-en',
-        children: 'Seeking Experience & Engineering Conference',
+        children: 'Seeking Great Experience With ZipcodeXpress ',
       },
       {
         name: 'slogan',
         className: 'banner3-slogan',
-        children: '首届蚂蚁金服体验科技大会',
+        children: '"The App is just amazing! I scan that QR code every time I come to pick up my packages. See today I got two packages within 1 second."',
         texty: true,
       },
       {
         name: 'name',
         className: 'banner3-name',
-        children: '探索极致用户体验与最佳工程实践探索',
+        children: 'John, user of Zippora Package Smart Locker 10006',
       },
-      { name: 'button', className: 'banner3-button', children: '立即报名' },
+      // { name: 'button', className: 'banner3-button', children: '立即报名' },
       {
         name: 'time',
         className: 'banner3-time',
-        children: '2018.01.06 / 中国·杭州',
+        children: '2019.01.06 / Austin TX',
       },
     ],
   },
@@ -494,128 +226,142 @@ export const Content50DataSource = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: '客户案例', className: 'title-h1' },
+      { name: 'title', children: 'A Few of Our Customers', className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
+        children: '',
       },
     ],
   },
   block: {
     className: 'content5-img-wrapper',
-    gutter: 16,
+    gutter: 4,
     children: [
       {
         name: 'block0',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/7f314e0531d3ed5386b5184217d82ba17ed91b6e.jpeg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '' },
         },
       },
       {
         name: 'block1',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/e940c26285a27466e28346536f449ab7e3ac7fe0.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '' },
         },
       },
       {
         name: 'block2',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/f1a2e98f7bf3d0fc10ee7e3a97ffaf371f598c81.png',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '' },
         },
       },
       {
         name: 'block3',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/0e09aa0ac831919e07724908f64a84bb775415f5.png',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '' },
         },
       },
       {
         name: 'block4',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/d3526f211c1f547428e08f6acb7aaf4ac61006b3.png',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '' },
         },
       },
       {
         name: 'block5',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/eed34e7b9e4293f101ab15aafd444b8eae672c88.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '' },
         },
       },
       {
         name: 'block6',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/f6f1ab942a4558a92a0ec10626a9a743fcf38549.jpeg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '' },
         },
       },
       {
         name: 'block7',
         className: 'block',
-        md: 6,
-        xs: 24,
+        md: 5,
+        xs: 30,
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+              'https://bucket.mlcdn.com/a/1736/1736632/images/873e322d5b1f29ec44e88acc42c1b1a5588f6e2a.jpeg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '' },
+        },
+      },
+      {
+        name: 'block8',
+        className: 'block',
+        md: 5,
+        xs: 30,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://bucket.mlcdn.com/a/1736/1736632/images/55f3563ad29dff0074d0e0daf49acb4fd67c9e67.png',
+          },
+          content: { children: '' },
         },
       },
     ],
@@ -769,11 +515,13 @@ export const Content30DataSource = {
 export const Feature10DataSource = {
   wrapper: { className: 'home-page-wrapper content1-wrapper' },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  imgWrapper: { className: 'content1-img', md: 12, xs: 24 },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+    href: "https://youtu.be/tk-2K3g17vU",
+    children: 'https://bucket.mlcdn.com/a/1736/1736632/images/c5222785e1d5e0c487c46936ccf78a3bf3f564f4.jpeg',
+   
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  textWrapper: { className: 'content1-text', md: 12, xs: 24 },
   title: { className: 'content1-title', children: 'In Case You Have Not Seen This' },
   content: {
     className: 'content1-content',

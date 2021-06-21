@@ -9,6 +9,7 @@
     "gh-pages": "gh-pages -d dist"
   },
   "dependencies": {
+    "@ant-design/compatible": "^1.0.8",
     "enquire-js": "^0.2.1",
     "rc-banner-anim": "^2.1.0",
     "rc-queue-anim": "^1.6.7",

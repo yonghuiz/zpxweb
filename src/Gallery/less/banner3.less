@@ -1,12 +1,12 @@
-@home_banner3: home_banner3;
-.@{home_banner3} {
+@banner3: banner3;
+.@{banner3} {
   // 如果在第一屏且导航位置为 relative, 一屏为 height: calc(~"100vh - 64px");
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   text-align: center;
   border-color: #666;
-  background-image: url("https://bucket.mlcdn.com/a/1736/1736632/images/0e209d6d8fb5ecf45d14a4ec55c22dd7a804921b.jpeg");
+  background-image: url("https://gw.alipayobjects.com/zos/rmsportal/xTPkCNNLOnTEbGgVZOpE.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -19,10 +19,10 @@
     left: 0;
     right: 0;
     color: @template-text-color-light;
-    max-width: 1000px;
+    max-width: 845px;
     height: 500px;
     width: 80%;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 28px;
     font-weight: 400;
     >.queue-anim-leaving {
@@ -30,10 +30,10 @@
     }
   }
   & &-slogan {
-    font-size: 35px;
-    line-height: 50px;
-    text-indent: 0px;
-    font-weight: 500;
+    font-size: 68px;
+    line-height: 80px;
+    text-indent: 2px;
+    font-weight: 600;
     margin: 26px auto 38px;
     overflow: hidden;
   }
@@ -70,7 +70,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .@{home_banner3} {
+  .@{banner3} {
     background-attachment: inherit;
     & &-text-wrapper {
       width: 90%;

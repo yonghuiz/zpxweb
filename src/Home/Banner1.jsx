@@ -54,7 +54,7 @@ class Banner extends React.PureComponent {
 					leave={{ opacity: 0 }}
 					component=""
 				>
-					<div className="banner1-wrapper" key="wrapper">
+					<div className="home_banner1-wrapper" key="wrapper">
 						<BannerAnim key="BannerAnim" {...dataSource.BannerAnim}>
 							{childrenToRender}
 						</BannerAnim>

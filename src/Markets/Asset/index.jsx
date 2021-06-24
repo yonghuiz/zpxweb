@@ -4,7 +4,7 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 import Banner0 from './Banner0';
 import Banner4 from './Banner4';
-//import Content0 from './Content0';
+import Content0 from './Content0';
 import Content1 from './Content1';
 import Content3 from './Content3';
 import Feature7 from './Feature7';
@@ -13,12 +13,12 @@ import {
   // Nav00DataSource,
   Banner00DataSource,
   Banner40DataSource,
- // Content00DataSource,
+Content00DataSource,
   Content10DataSource,
   Content30DataSource,
    Feature70DataSource,
 } from './data.source';
-import './less/apt.less';
+import './less/school.less';
 
 let isMobile;
 enquireScreen((b) => {
@@ -62,36 +62,38 @@ export default class Apartment extends React.Component {
         dataSource={Banner00DataSource}
         isMobile={this.state.isMobile}
       />,
-      // <Content0
-      //   id="Content0_0"
-      //   key="Content0_0"
-      //   dataSource={Content00DataSource}
-      //   isMobile={this.state.isMobile}
-      // />,
+      
       <Content1
         id="Content1_0"
         key="Content1_0"
         dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner4
-      id="Banner4_0"
-      key="Banner4_0"
-      dataSource={Banner40DataSource}
-      isMobile={this.state.isMobile}
-    />,
-      // <Content3
-      //   id="Content3_0"
-      //   key="Content3_0"
-      //   dataSource={Content30DataSource}
-      //   isMobile={this.state.isMobile}
-      // />,
-      <Feature7
-      id="Feature7_0"
-      key="Feature7_0"
-      dataSource={Feature70DataSource}
-      isMobile={this.state.isMobile}
-    />,
+    //   <Banner4
+    //   id="Banner4_0"
+    //   key="Banner4_0"
+    //   dataSource={Banner40DataSource}
+    //   isMobile={this.state.isMobile}
+    // />,
+      
+      <Content0
+        id="Content0_0"
+        key="Content0_0"
+        dataSource={Content00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+    //   <Feature7
+    //   id="Feature7_0"
+    //   key="Feature7_0"
+    //   dataSource={Feature70DataSource}
+    //   isMobile={this.state.isMobile}
+    // />,
+    <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+      />,
     ];
     return (
       <div

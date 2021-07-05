@@ -3,9 +3,9 @@ import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import { Row, Col } from 'antd';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import './less/content1.less';
+import './less/content13.less';
 
-function Content1(props) {
+function Content11(props) {
   const { ...tagProps } = props;
   const { dataSource, isMobile } = tagProps;
   delete tagProps.dataSource;
@@ -29,7 +29,7 @@ function Content1(props) {
   return (
     <div {...tagProps} {...dataSource.wrapper}>
       <OverPack {...dataSource.OverPack} component={Row}>
-        {/* <TweenOne
+        <TweenOne
           key="img"
           animation={animType.one}
           resetStyle
@@ -43,7 +43,7 @@ function Content1(props) {
           <span {...dataSource.img}>
             <img src={dataSource.img.children} width="100%" alt="img" />
           </span>
-        </TweenOne> */}
+        </TweenOne>
         <QueueAnim
           key="text"
           type={animType.queue}
@@ -64,24 +64,10 @@ function Content1(props) {
             {dataSource.content.children}
           </div>
         </QueueAnim>
-        <TweenOne
-          key="img"
-          animation={animType.one}
-          resetStyle
-          {...dataSource.imgWrapper}
-          component={Col}
-          componentProps={{
-            md: dataSource.imgWrapper.md,
-            xs: dataSource.imgWrapper.xs,
-          }}
-        >
-          <span {...dataSource.img}>
-            <img src={dataSource.img.children} width="100%" alt="img" />
-          </span>
-        </TweenOne>
+     
       </OverPack>
     </div>
   );
 }
 
-export default Content1;
+export default Content11;

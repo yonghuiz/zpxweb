@@ -1,8 +1,7 @@
-  
-import eCommerce from '../Markets/eCommerce';
+import Ecommerce from '../Markets/ecommerce';
 
 export default function () {
   return (
-    <eCommerce />
+    <Ecommerce />
   );
 }

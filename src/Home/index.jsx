@@ -15,7 +15,7 @@ import Content3 from './Content3';
 import Feature1 from './Feature1';
 import Feature2 from './Feature2';
 import Banner5 from './Banner5';
-import Footer1 from './Footer1';
+import NavContentFoot from '../layouts/NavContentFoot';
 
 import {
   // Nav30DataSource,
@@ -29,7 +29,7 @@ import {
   Feature10DataSource,
   Feature20DataSource,
   Banner50DataSource,
-  Footer11DataSource,
+//  Footer11DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -69,12 +69,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Banner0
-      id="Banner0_1"
-      key="Banner0_1"
-      dataSource={Banner01DataSource}
-      isMobile={this.state.isMobile}
-    />,
+    //   <Banner0
+    //   id="Banner0_1"
+    //   key="Banner0_1"
+    //   dataSource={Banner01DataSource}
+    //   isMobile={this.state.isMobile}
+    // />,
       <Banner1
         id="Banner1_0"
         key="Banner1_0"
@@ -126,11 +126,10 @@ export default class Home extends React.Component {
         dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      // <Footer1
-      //   id="Footer1_1"
-      //   key="Footer1_1"
-      //   dataSource={Footer11DataSource}
-      //   isMobile={this.state.isMobile}
+      // <NavContentFoot
+      //   id="NavFoot"
+      //   key="NavFoot"
+      
       // />,
     ];
     return (

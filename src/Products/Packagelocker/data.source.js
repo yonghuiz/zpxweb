@@ -429,7 +429,7 @@ export const Feature80DataSource = {
           children: [
             {
               className: 'feature8-block-col',
-              md: 6,
+              md: 8,
               xs: 24,
               name: 'child0',
               arrow: {
@@ -473,7 +473,7 @@ export const Feature80DataSource = {
             },
             {
               className: 'feature8-block-col',
-              md: 6,
+              md: 8,
               xs: 24,
               name: 'child1',
               arrow: {
@@ -518,7 +518,7 @@ export const Feature80DataSource = {
             },
             {
               className: 'feature8-block-col',
-              md: 6,
+              md: 8,
               xs: 24,
               name: 'child2',
               arrow: {
@@ -560,39 +560,7 @@ export const Feature80DataSource = {
                 ],
               },
             },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child3',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: '需求沟通',
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children:
-                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
-                  },
-                ],
-              },
-            },
+           
           ],
         },
       ],

@@ -3,7 +3,7 @@ import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import { Row, Col } from 'antd';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import './less/content1.less';
+import './less/content12.less';
 
 function Content1(props) {
   const { ...tagProps } = props;

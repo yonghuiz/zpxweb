@@ -34,7 +34,7 @@ export const Banner40DataSource = {
   image: {
     className: 'office_banner4-image',
     children:
-      'https://unibox-us.oss-us-east-1.aliyuncs.com/Website_Image/apartment/pic2_apartment.png',
+      'https://unibox-us.oss-us-east-1.aliyuncs.com/Website_Image/FOR%20OFFICE_slices/pic_office.png',
   },
 };
 export const Content00DataSource = {
@@ -131,14 +131,14 @@ export const Content10DataSource = {
   OverPack: { className: 'home-page office_content1', playScale: 0.3 },
   imgWrapper: { className: 'office_content1-img', md: 10, xs: 24 },
   img: {
-    children: 'https://bucket.mlcdn.com/a/1736/1736632/images/d59fa3e64ac9c8aff4645140b4eaf7d53c074c96.png',
+    children: 'https://unibox-us.oss-us-east-1.aliyuncs.com/Website_Image/FOR%20OFFICE_slices/pic_office.png',
   },
   textWrapper: { className: 'office_content1-text', md: 14, xs: 24 },
   title: { className: 'office_content1-title', children: 'Current Problems' },
   content: {
     className: 'office_content1-content',
     children:
-      'AS A STUDENT, have you ever tried to order food online yet when they delivery you are still in the middle of a class? Have you ever had your packages deliver to your dorm yet carrier can’t find your room no matter how? AS A SCHOOL FACULTY, don’t you feel there are too many of packages to handle every day that you need to take a breath? Do you ever need to hire extra personnel to do this tedious job?',
+      'AS AN OFFICE OCCUPANT, have you ever missed out your packages when you go out for lunch? Have you ever been requested to sign for a package when you are in a meeting? Have you ever concerned your colleagues would know your package privacy? AS A PROPERTY MANAGER, are you concerned about the safety of the working environment when stranger carriers come to deliver?',
   },
 };
 export const Content30DataSource = {
@@ -208,6 +208,28 @@ export const Content30DataSource = {
           },
         },
       },
+        {
+          name: 'block2',
+          className: 'office_content3-block',
+          md: 24,
+          xs: 24,
+          children: {
+            icon: {
+              className: 'office_content3-icon',
+              md: 12,
+              xs: 24,
+              children:
+                'https://unibox-us.oss-us-east-1.aliyuncs.com/Website_Image/FOR%20OFFICE_slices/icon3_school.png',
+            },
+            textWrapper: { className: 'office_content3-text' , md: 12, xs: 24 },
+            title: { className: 'office_content3-title', children: 'More Privacy' },
+            content: {
+              className: 'office_content3-content',
+              children:
+                'Even if you have any sensitive packages delivered to office, your privacy is ensured.',
+            },
+          },
+        },
       // {
       //   name: 'block2',
       //   className: 'office_content3-block',

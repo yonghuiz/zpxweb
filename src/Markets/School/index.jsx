@@ -3,7 +3,7 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 import Banner0 from './Banner0';
-import Banner4 from './Banner4';
+import Banner3 from './Banner3';
 import Content0 from './Content0';
 import Content1 from './Content1';
 import Content3 from './Content3';
@@ -12,7 +12,7 @@ import Feature7 from './Feature7';
 import {
   // Nav00DataSource,
   Banner00DataSource,
-  Banner40DataSource,
+  Banner30DataSource,
 Content00DataSource,
   Content10DataSource,
   Content30DataSource,
@@ -56,10 +56,10 @@ export default class Apartment extends React.Component {
 
   render() {
     const children = [
-      <Banner0
-        id="Banner0_0"
-        key="Banner0_0"
-        dataSource={Banner00DataSource}
+      <Banner3
+        id="Banner3_0"
+        key="Banner3_0"
+        dataSource={Banner30DataSource}
         isMobile={this.state.isMobile}
       />,
       

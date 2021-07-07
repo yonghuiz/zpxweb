@@ -6,17 +6,26 @@ import Banner0 from './Banner0';
 import Banner4 from './Banner4';
 import Content0 from './Content0';
 import Content1 from './Content1';
-import Content3 from './Content3';
+import Content11 from './Content11';
+import Content12 from './Content12';
+import Content13 from './Content13';
+import Content120 from './Content120';
+//import Content3 from './Content3';
 import Feature7 from './Feature7';
 
 import {
   // Nav00DataSource,
   Banner00DataSource,
   Banner40DataSource,
-Content00DataSource,
+  Content00DataSource,
   Content10DataSource,
-  Content30DataSource,
-   Feature70DataSource,
+  Content11DataSource,
+  Content12DataSource,
+  Content13DataSource,
+  Content120DataSource,
+  // Content11DataSource,
+  // Content30DataSource,
+  Feature70DataSource,
 } from './data.source';
 import './less/school.less';
 
@@ -27,7 +36,7 @@ enquireScreen((b) => {
 
 const { location } = window;
 
-export default class Apartment extends React.Component {
+export default class Ecommerce extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,6 +64,14 @@ export default class Apartment extends React.Component {
   }
 
   render() {
+    const mystyle = {
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      padding: "10px",
+      fontFamily: "Arial",
+      textAlign: "center",
+      textAlignVertical: 'bottom'
+    };
     const children = [
       <Banner0
         id="Banner0_0"
@@ -62,38 +79,50 @@ export default class Apartment extends React.Component {
         dataSource={Banner00DataSource}
         isMobile={this.state.isMobile}
       />,
-      
+
       <Content1
         id="Content1_0"
         key="Content1_0"
         dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
-    //   <Banner4
-    //   id="Banner4_0"
-    //   key="Banner4_0"
-    //   dataSource={Banner40DataSource}
-    //   isMobile={this.state.isMobile}
-    // />,
-      
+        <div>
+      <span>
+      <h1 style={mystyle}>How do we resolve</h1>
+      </span>,
+      </div>,
+      <Content11
+        id="Content1_1"
+        key="Content1_1"
+        dataSource={Content11DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content12
+        id="Content1_2"
+        key="Content1_2"
+        dataSource={Content12DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content13
+        id="Content1_3"
+        key="Content1_3"
+        dataSource={Content13DataSource}
+        isMobile={this.state.isMobile}
+      />,
+
       <Content0
         id="Content0_0"
         key="Content0_0"
         dataSource={Content00DataSource}
         isMobile={this.state.isMobile}
       />,
-    //   <Feature7
-    //   id="Feature7_0"
-    //   key="Feature7_0"
-    //   dataSource={Feature70DataSource}
-    //   isMobile={this.state.isMobile}
-    // />,
-    <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+
+      // <Content3
+      //   id="Content3_0"
+      //   key="Content3_0"
+      //   dataSource={Content30DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
     ];
     return (
       <div
@@ -102,7 +131,7 @@ export default class Apartment extends React.Component {
           this.dom = d;
         }}
 
-      > 
+      >
         {/* 如果不是 dva 2.0 替换成 {children} start */}
         {this.state.show && children}
         {/* 如果不是 dva 2.0 替换成 {children} end */}

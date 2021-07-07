@@ -32,13 +32,13 @@ export const Banner10DataSource = {
           className: 'home_banner1-content',
           children: 'A Smart Locker Expert',
         },
-        button: { className: 'home_banner1-button', children: 'Learn More' },
+        button: { className: 'home_banner1-button', children: 'Learn More', href:"#Content3_0" },
       },
       {
         name: 'elem1',
         BannerElement: { className: 'banner-user-elem' },
         textWrapper: { className: 'home_banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
+        bg: { className: 'bg2 bg1' },
         title: {
           className: 'home_banner1-title',
           children:
@@ -48,7 +48,7 @@ export const Banner10DataSource = {
           className: 'home_banner1-content',
           children: 'A Smart Locker Expert',
         },
-        button: { className: 'home_banner1-button', children: 'Learn More' },
+        button: { className: 'home_banner1-button', children: 'Learn More',href:"#Content3_0" },
       },
       {
         name: 'elem2',
@@ -64,7 +64,7 @@ export const Banner10DataSource = {
           className: 'home_banner1-content',
           children: 'A Smart Locker Expert',
         },
-        button: { className: 'home_banner1-button', children: 'Learn More' },
+        button: { className: 'home_banner1-button', children: 'Learn More',href:"#Content3_0" },
       },
     ],
   },
@@ -236,13 +236,13 @@ export const Content50DataSource = {
   },
   block: {
     className: 'home_content5-img-wrapper',
-    gutter: 4,
+    gutter: 3,
     children: [
       {
         name: 'block0',
         className: 'block',
         md: 5,
-        xs: 30,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -256,7 +256,7 @@ export const Content50DataSource = {
         name: 'block1',
         className: 'block',
         md: 5,
-        xs: 30,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -270,7 +270,7 @@ export const Content50DataSource = {
         name: 'block2',
         className: 'block',
         md: 5,
-        xs: 30,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -284,7 +284,7 @@ export const Content50DataSource = {
         name: 'block3',
         className: 'block',
         md: 5,
-        xs: 30,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -298,7 +298,7 @@ export const Content50DataSource = {
         name: 'block4',
         className: 'block',
         md: 5,
-        xs: 30,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -311,8 +311,8 @@ export const Content50DataSource = {
       {
         name: 'block5',
         className: 'block',
-        md: 5,
-        xs: 30,
+        md: 4,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -325,8 +325,8 @@ export const Content50DataSource = {
       {
         name: 'block6',
         className: 'block',
-        md: 5,
-        xs: 30,
+        md: 4,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -339,8 +339,8 @@ export const Content50DataSource = {
       {
         name: 'block7',
         className: 'block',
-        md: 5,
-        xs: 30,
+        md: 4,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {
@@ -353,8 +353,8 @@ export const Content50DataSource = {
       {
         name: 'block8',
         className: 'block',
-        md: 5,
-        xs: 30,
+        md: 4,
+        xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
           img: {

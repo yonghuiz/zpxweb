@@ -127,6 +127,27 @@ export const Nav30DataSource = {
     className: 'header3-logo',
     children:
       'https://bucket.mlcdn.com/a/1736/1736632/images/743944cdb92b0fe315b67343a2c5900eab4834b5.jpeg',
+    // children: [
+              
+    //   {
+    //     name: 'image_logo',
+    //     className: 'item-image',
+    //     children:
+    //       'https://bucket.mlcdn.com/a/1736/1736632/images/743944cdb92b0fe315b67343a2c5900eab4834b5.jpeg',
+    //   },
+    //   {
+    //     // href: '/Apartment',
+    //     name: 'title',
+    //     className: 'item-title',
+    //     children: 'Smart Locker Expert',
+    //   },
+    //   // {
+       
+    //   //   name: 'content',
+    //   //   className: 'item-content',
+    //   //   children: 'XXX',
+    //   // },
+    // ],
   },
   Menu: {
     className: 'header3-menu',

@@ -87,6 +87,7 @@ class Header3 extends React.Component {
             {...dataSource.logo}
           >
             <img width="100%" src={dataSource.logo.children} alt="img" />
+           
           </TweenOne>
           {isMobile && (
             <div

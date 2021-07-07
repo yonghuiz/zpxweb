@@ -5,7 +5,7 @@ import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import { isImg } from '../../layouts/utils';
 
-class Banner extends React.PureComponent {
+class Banner0 extends React.PureComponent {
   render() {
     const { ...currentProps } = this.props;
     const { dataSource } = currentProps;
@@ -50,4 +50,4 @@ class Banner extends React.PureComponent {
     );
   }
 }
-export default Banner;
+export default Banner0;

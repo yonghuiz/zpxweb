@@ -2,19 +2,18 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { getChildrenToRender } from '../layouts/utils';
+import { getChildrenToRender } from '../../layouts/utils';
 
-class Content5 extends React.PureComponent {
+class Content120 extends React.PureComponent {
   getChildrenToRender = (data) =>
     data.map((item) => {
       return (
         <Col key={item.name} {...item}>
-          <a {...item.children.wrapper}>
+          <div {...item.children.wrapper}>
             <span {...item.children.img}>
-              <img src={item.children.img.children} height="70%" width = "70%"  alt="img" />
+              <img src={item.children.img.children} alt="img" />
             </span>
-            <p {...item.children.content}>{item.children.content.children}</p>
-          </a>
+          </div>
         </Col>
       );
     });
@@ -44,9 +43,9 @@ class Content5 extends React.PureComponent {
                 y: '+=30',
                 opacity: 0,
                 type: 'from',
-                ease: 'easeInOutQuad',
+                ease: 'easeOutQuad',
               }}
-              leave={{ y: '+=30', opacity: 0, ease: 'easeInOutQuad' }}
+              leave={{ y: '+=30', opacity: 0, ease: 'easeOutQuad' }}
               {...dataSource.block}
             >
               {childrenToRender}
@@ -58,4 +57,4 @@ class Content5 extends React.PureComponent {
   }
 }
 
-export default Content5;
+export default Content120;

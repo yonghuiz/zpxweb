@@ -4,7 +4,7 @@ import QueueAnim from 'rc-queue-anim';
 import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 
-class Banner extends React.PureComponent {
+class Banner3 extends React.PureComponent {
 	render() {
 		const { ...currentProps } = this.props;
 		const { dataSource } = currentProps;
@@ -44,4 +44,4 @@ class Banner extends React.PureComponent {
 		);
 	}
 }
-export default Banner;
+export default Banner3;

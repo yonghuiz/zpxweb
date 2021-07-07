@@ -36,7 +36,7 @@ enquireScreen((b) => {
 
 const { location } = window;
 
-export default class Apartment extends React.Component {
+export default class Asset extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

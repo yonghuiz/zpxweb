@@ -8,7 +8,7 @@ import { isImg } from '../layouts/utils';
 import 'rc-banner-anim/assets/index.css';
 
 const { BgElement } = Element;
-class Banner extends React.PureComponent {
+class Banner1 extends React.PureComponent {
 	render() {
 		const { ...props } = this.props;
 		const { dataSource } = props;
@@ -78,4 +78,4 @@ class Banner extends React.PureComponent {
 	}
 }
 
-export default Banner;
+export default Banner1;

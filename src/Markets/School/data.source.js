@@ -13,6 +13,36 @@ export const Banner00DataSource = {
   },
    button: { className: 'banner0-button', children: 'Learn More' },
 };
+export const Banner30DataSource = {
+  wrapper: { className: 'banner3' },
+  textWrapper: {
+    className: 'banner3-text-wrapper',
+    children: [
+      // {
+      //   name: 'nameEn',
+      //   className: 'banner3-name-en',
+      //   children: 'Seeking Experience & Engineering Conference',
+      // },
+      {
+        name: 'slogan',
+        className: 'banner3-slogan',
+        children: 'SCHOOL',
+        texty: true,
+      },
+      // {
+      //   name: 'name',
+      //   className: 'banner3-name',
+      //   children: '探索极致用户体验与最佳工程实践探索',
+      // },
+      { name: 'button', className: 'banner3-button', children: 'learn more', href: "#Content1_0"},
+      // {
+      //   name: 'time',
+      //   className: 'banner3-time',
+      //   children: '2018.01.06 / 中国·杭州',
+      // },
+    ],
+  },
+};
 export const Banner40DataSource = {
   wrapper: { className: 'home-page-wrapper sch_banner4' },
   page: { className: 'home-page sch_banner4-page' },
@@ -172,12 +202,12 @@ export const Content30DataSource = {
           icon: {
            
             className: 'sch_content3-icon',
-            md: 12,
+            md: 14,
             xs: 24,
             children:
               'https://bucket.mlcdn.com/a/1736/1736632/images/b007a8a5f49f743c1ab1d629ca292248c781be82.png',
           },
-          textWrapper: { className: 'sch_content3-text' , md: 12, xs: 24 },
+          textWrapper: { className: 'sch_content3-text' , md: 10, xs: 24 },
           title: { className: 'sch_content3-title', children: 'Food Delivery' },
           content: {
             className: 'sch_content3-content',

@@ -29,7 +29,7 @@ import {
   Feature10DataSource,
   Feature20DataSource,
   Banner50DataSource,
-//  Footer11DataSource,
+  //  Footer11DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -69,25 +69,25 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-    //   <Banner0
-    //   id="Banner0_1"
-    //   key="Banner0_1"
-    //   dataSource={Banner01DataSource}
-    //   isMobile={this.state.isMobile}
-    // />,
+      //   <Banner0
+      //   id="Banner0_1"
+      //   key="Banner0_1"
+      //   dataSource={Banner01DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Banner1
         id="Banner1_0"
         key="Banner1_0"
         dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-    
-	<Content3
-	id="Content3_0"
-	key="Content3_0"
-	dataSource={Content30DataSource}
-	isMobile={this.state.isMobile}
-  />,
+
+      <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content0
         id="Content0_0"
         key="Content0_0"
@@ -96,40 +96,41 @@ export default class Home extends React.Component {
       />,
 
       <Banner3
-      id="Banner3_0"
-      key="Banner3_0"
-      dataSource={Banner30DataSource}
-      isMobile={this.state.isMobile}
-    />,
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
+        id="Banner3_0"
+        key="Banner3_0"
+        dataSource={Banner30DataSource}
         isMobile={this.state.isMobile}
       />,
-     
       <Feature1
         id="Feature1_0"
         key="Feature1_0"
         dataSource={Feature10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature2
-        id="Feature2_0"
-        key="Feature2_0"
-        dataSource={Feature20DataSource}
+      <Content5
+        id="Content5_0"
+        key="Content5_0"
+        dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner5
-        id="Banner5_0"
-        key="Banner5_0"
-        dataSource={Banner50DataSource}
-        isMobile={this.state.isMobile}
-      />,
+
+
+      // <Feature2
+      //   id="Feature2_0"
+      //   key="Feature2_0"
+      //   dataSource={Feature20DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      // <Banner5
+      //   id="Banner5_0"
+      //   key="Banner5_0"
+      //   dataSource={Banner50DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       // <NavContentFoot
       //   id="NavFoot"
       //   key="NavFoot"
-      
+
       // />,
     ];
     return (

@@ -1,7 +1,7 @@
-@content1: ecommerce_content1;
-.@{content1}-wrapper {
+@content13: ecommerce_content13;
+.@{content13}-wrapper {
   height: 460px;
-  .@{content1} {
+  .@{content13} {
     height: 100%;
     padding: 0 24px;
     &-img {
@@ -13,7 +13,7 @@
       justify-content: center;
       span {
         display: block;
-        width: 400px;
+        width: 350px;
         img {
           display: block;
         }
@@ -22,27 +22,34 @@
     &-text {
       padding: 0 32px;
       height: 100%;
-      .@{content1}-content,
-      .@{content1}-title {
+      .@{content13}-content,
+      .@{content13}-title {
         position: relative !important;
       }
-      .@{content1}-title {
+      .@{content13}-title {
         font-size: 32px;
         font-weight: normal;
         color: #404040;
-        margin-top: 50px;
+        margin-top: 100px;
       }
-      .content {
-        margin-top: 20px;
+      .@{content13}-content {
+        margin-top: 200px;
+        padding-left: 10px;
+        
+        align-content: center;
+        width: 700px;
+        height: 178x;
+        border-color: rgb(165, 82, 82) ;
+        background: rgb(252, 250, 250)
       }
     }
   }
 }
 
 @media screen and (max-width: 767px) {
-  .@{content1}-wrapper {
+  .@{content13}-wrapper {
     height: 600px;
-    .@{content1} {
+    .@{content13} {
       &-img {
         height: 200px;
         padding: 0;
@@ -61,12 +68,12 @@
         margin-bottom: 20px;
         text-align: center;
         padding: 0;
-        .@{content1}-content,
-        .@{content1}-title {
+        .@{content13}-content,
+        .@{content13}-title {
           width: 100%;
           top: auto;
         }
-        .@{content1}-title {
+        .@{content13}-title {
           margin: 32px auto 16px;
           font-size: 24px;
         }

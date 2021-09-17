@@ -241,7 +241,7 @@ export const Content50DataSource = {
       {
         name: 'block0',
         className: 'block',
-        md: 5,
+        md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
@@ -255,7 +255,7 @@ export const Content50DataSource = {
       {
         name: 'block1',
         className: 'block',
-        md: 5,
+        md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
@@ -269,7 +269,7 @@ export const Content50DataSource = {
       {
         name: 'block2',
         className: 'block',
-        md: 5,
+        md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
@@ -283,7 +283,7 @@ export const Content50DataSource = {
       {
         name: 'block3',
         className: 'block',
-        md: 5,
+        md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
@@ -297,7 +297,7 @@ export const Content50DataSource = {
       {
         name: 'block4',
         className: 'block',
-        md: 5,
+        md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'home_content5-block-content' },
